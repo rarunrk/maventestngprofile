@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Please these tags are comments.. Please understand -->
+<!-- Execute @BeforeSuite -->
+<suite name="My First Suite">
+
+	<!-- Execute @BeforeTest -->
+	<test name="Java Concepts Test">
+		<classes>
+		
+			<!-- Execute @BeforeClass -->
+			<class name="com.zert.java.testng.tutorial.MathsOperationTest"></class>
+			<!-- Execute @AfterClass -->
+			
+			<!-- Execute @BeforeClass -->
+			<class name="com.zert.java.testng.tutorial.SquareCubeFinderTest"></class>
+			<!-- Execute @AfterClass -->
+			
+		</classes>
+	</test>
+	
+	
+	<!-- Execute @BeforeTest -->
+	<test name="Logical Thinking Test">
+		<classes>
+				<!-- Execute @BeforeClass -->
+				<class name="com.zert.java.testng.logical.FactorialFinderTest"></class>
+				<!-- Execute @AfterClass -->
+				
+				<!-- Execute @BeforeClass -->
+				<class name="com.zert.java.testng.logical.EvenNumberFinderTest"></class>
+				<!-- Execute @AfterClass -->
+				
+		</classes>
+	</test>
+	<!-- Execute @AfterTest -->
+	
+</suite>
+<!-- Execute @AfterSuite -->

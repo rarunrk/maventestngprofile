@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Please these tags are comments.. Please understand -->
+<!-- Execute @BeforeSuite -->
+<suite name="My First Suite">
+
+
+	
+	
+	<test name="Selenium Test">
+		<classes>
+			<class name="com.zert.java.testng.selenium.BlogSpotNameTest"></class>
+			<class name="com.zert.java.testng.selenium.BlogSpotDietTest"></class>
+		</classes>
+	</test>
+	
+</suite>
+<!-- Execute @AfterSuite -->

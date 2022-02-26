@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="19" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-26T10:25:51 AEST" name="My First Suite" finished-at="2022-02-26T10:26:19 AEST" duration-ms="28166">
+    <groups>
+    </groups>
+    <test started-at="2022-02-26T10:25:51 AEST" name="Java Concepts Test" finished-at="2022-02-26T10:25:51 AEST" duration-ms="79">
+      <class name="com.zert.java.testng.tutorial.MathsOperationTest">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:com.zert.java.testng.tutorial.MathsOperationTest@4550bb58]" started-at="2022-02-26T10:25:51 AEST" name="beforeEachTest" finished-at="2022-02-26T10:25:51 AEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="setMathObject()[pri:0, instance:com.zert.java.testng.tutorial.MathsOperationTest@4550bb58]" started-at="2022-02-26T10:25:51 AEST" name="setMathObject" finished-at="2022-02-26T10:25:51 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMathObject -->
+        <test-method signature="add_double_test()[pri:0, instance:com.zert.java.testng.tutorial.MathsOperationTest@4550bb58]" started-at="2022-02-26T10:25:51 AEST" name="add_double_test" finished-at="2022-02-26T10:25:51 AEST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_double_test -->
+        <test-method signature="add_integer_test()[pri:0, instance:com.zert.java.testng.tutorial.MathsOperationTest@4550bb58]" started-at="2022-02-26T10:25:51 AEST" name="add_integer_test" finished-at="2022-02-26T10:25:51 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_integer_test -->
+        <test-method is-config="true" signature="afterLastTestMethod()[pri:0, instance:com.zert.java.testng.tutorial.MathsOperationTest@4550bb58]" started-at="2022-02-26T10:25:51 AEST" name="afterLastTestMethod" finished-at="2022-02-26T10:25:51 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLastTestMethod -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:com.zert.java.testng.tutorial.MathsOperationTest@4550bb58]" started-at="2022-02-26T10:25:51 AEST" name="afterEachTest" finished-at="2022-02-26T10:25:51 AEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.zert.java.testng.tutorial.MathsOperationTest -->
+      <class name="com.zert.java.testng.tutorial.SquareCubeFinderTest">
+        <test-method is-config="true" signature="setMathObject()[pri:0, instance:com.zert.java.testng.tutorial.SquareCubeFinderTest@77fbd92c]" started-at="2022-02-26T10:25:51 AEST" name="setMathObject" finished-at="2022-02-26T10:25:51 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMathObject -->
+        <test-method signature="findCube_test()[pri:0, instance:com.zert.java.testng.tutorial.SquareCubeFinderTest@77fbd92c]" started-at="2022-02-26T10:25:51 AEST" name="findCube_test" finished-at="2022-02-26T10:25:51 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCube_test -->
+        <test-method signature="findSquare_test()[pri:0, instance:com.zert.java.testng.tutorial.SquareCubeFinderTest@77fbd92c]" started-at="2022-02-26T10:25:51 AEST" name="findSquare_test" finished-at="2022-02-26T10:25:51 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findSquare_test -->
+        <test-method is-config="true" signature="afterLastTestMethod()[pri:0, instance:com.zert.java.testng.tutorial.SquareCubeFinderTest@77fbd92c]" started-at="2022-02-26T10:25:51 AEST" name="afterLastTestMethod" finished-at="2022-02-26T10:25:51 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLastTestMethod -->
+      </class> <!-- com.zert.java.testng.tutorial.SquareCubeFinderTest -->
+    </test> <!-- Java Concepts Test -->
+    <test started-at="2022-02-26T10:25:51 AEST" name="Logical Thinking Test" finished-at="2022-02-26T10:25:51 AEST" duration-ms="15">
+      <class name="com.zert.java.testng.logical.FactorialFinderTest">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:com.zert.java.testng.logical.FactorialFinderTest@33d512c1]" started-at="2022-02-26T10:25:51 AEST" name="beforeEachTest" finished-at="2022-02-26T10:25:51 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="beforeFirstTestMethod()[pri:0, instance:com.zert.java.testng.logical.FactorialFinderTest@33d512c1]" started-at="2022-02-26T10:25:51 AEST" name="beforeFirstTestMethod" finished-at="2022-02-26T10:25:51 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeFirstTestMethod -->
+        <test-method signature="findFactorialUsingRecurssion_test()[pri:0, instance:com.zert.java.testng.logical.FactorialFinderTest@33d512c1]" started-at="2022-02-26T10:25:51 AEST" name="findFactorialUsingRecurssion_test" finished-at="2022-02-26T10:25:51 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFactorialUsingRecurssion_test -->
+        <test-method signature="findFactorial_test()[pri:0, instance:com.zert.java.testng.logical.FactorialFinderTest@33d512c1]" started-at="2022-02-26T10:25:51 AEST" name="findFactorial_test" finished-at="2022-02-26T10:25:51 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFactorial_test -->
+        <test-method is-config="true" signature="afterLastTestMethod()[pri:0, instance:com.zert.java.testng.logical.FactorialFinderTest@33d512c1]" started-at="2022-02-26T10:25:51 AEST" name="afterLastTestMethod" finished-at="2022-02-26T10:25:51 AEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLastTestMethod -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:com.zert.java.testng.logical.FactorialFinderTest@33d512c1]" started-at="2022-02-26T10:25:51 AEST" name="afterEachTest" finished-at="2022-02-26T10:25:51 AEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.zert.java.testng.logical.FactorialFinderTest -->
+      <class name="com.zert.java.testng.logical.EvenNumberFinderTest">
+        <test-method signature="isEvenNumber_test_negative()[pri:0, instance:com.zert.java.testng.logical.EvenNumberFinderTest@515c6049]" started-at="2022-02-26T10:25:51 AEST" name="isEvenNumber_test_negative" finished-at="2022-02-26T10:25:51 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEvenNumber_test_negative -->
+        <test-method signature="isEvenNumber_test_positive()[pri:0, instance:com.zert.java.testng.logical.EvenNumberFinderTest@515c6049]" started-at="2022-02-26T10:25:51 AEST" name="isEvenNumber_test_positive" finished-at="2022-02-26T10:25:51 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEvenNumber_test_positive -->
+      </class> <!-- com.zert.java.testng.logical.EvenNumberFinderTest -->
+    </test> <!-- Logical Thinking Test -->
+    <test started-at="2022-02-26T10:25:51 AEST" name="Selenium Test" finished-at="2022-02-26T10:26:19 AEST" duration-ms="27999">
+      <class name="com.zert.java.testng.selenium.BlogSpotDietTest">
+        <test-method is-config="true" signature="initateDriverClass()[pri:0, instance:com.zert.java.testng.selenium.BlogSpotDietTest@175c2241]" started-at="2022-02-26T10:26:06 AEST" name="initateDriverClass" finished-at="2022-02-26T10:26:19 AEST" duration-ms="12638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initateDriverClass -->
+        <test-method signature="testDietOptions()[pri:0, instance:com.zert.java.testng.selenium.BlogSpotDietTest@175c2241]" started-at="2022-02-26T10:26:19 AEST" name="testDietOptions" finished-at="2022-02-26T10:26:19 AEST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDietOptions -->
+        <test-method is-config="true" signature="closeDriverClass()[pri:0, instance:com.zert.java.testng.selenium.BlogSpotDietTest@175c2241]" started-at="2022-02-26T10:26:19 AEST" name="closeDriverClass" finished-at="2022-02-26T10:26:19 AEST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverClass -->
+      </class> <!-- com.zert.java.testng.selenium.BlogSpotDietTest -->
+      <class name="com.zert.java.testng.logical.FactorialFinderTest">
+        <test-method is-config="true" signature="beforeSuiteExecutes()[pri:0, instance:com.zert.java.testng.logical.FactorialFinderTest@33d512c1]" started-at="2022-02-26T10:25:51 AEST" name="beforeSuiteExecutes" finished-at="2022-02-26T10:25:51 AEST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteExecutes -->
+        <test-method is-config="true" signature="afterSuiteExecutes()[pri:0, instance:com.zert.java.testng.logical.FactorialFinderTest@33d512c1]" started-at="2022-02-26T10:26:19 AEST" name="afterSuiteExecutes" finished-at="2022-02-26T10:26:19 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteExecutes -->
+      </class> <!-- com.zert.java.testng.logical.FactorialFinderTest -->
+      <class name="com.zert.java.testng.selenium.BlogSpotNameTest">
+        <test-method is-config="true" signature="initateDriverClass()[pri:0, instance:com.zert.java.testng.selenium.BlogSpotNameTest@4afcd809]" started-at="2022-02-26T10:25:51 AEST" name="initateDriverClass" finished-at="2022-02-26T10:26:06 AEST" duration-ms="14520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initateDriverClass -->
+        <test-method signature="testIfFirstNameIsEnabled()[pri:0, instance:com.zert.java.testng.selenium.BlogSpotNameTest@4afcd809]" started-at="2022-02-26T10:26:06 AEST" name="testIfFirstNameIsEnabled" finished-at="2022-02-26T10:26:06 AEST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfFirstNameIsEnabled -->
+        <test-method signature="testIfLastNameIsDisabled()[pri:0, instance:com.zert.java.testng.selenium.BlogSpotNameTest@4afcd809]" started-at="2022-02-26T10:26:06 AEST" name="testIfLastNameIsDisabled" finished-at="2022-02-26T10:26:06 AEST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfLastNameIsDisabled -->
+        <test-method is-config="true" signature="closeDriverClass()[pri:0, instance:com.zert.java.testng.selenium.BlogSpotNameTest@4afcd809]" started-at="2022-02-26T10:26:06 AEST" name="closeDriverClass" finished-at="2022-02-26T10:26:06 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverClass -->
+      </class> <!-- com.zert.java.testng.selenium.BlogSpotNameTest -->
+    </test> <!-- Selenium Test -->
+  </suite> <!-- My First Suite -->
+</testng-results>
