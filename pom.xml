@@ -48,6 +48,7 @@
 		</dependency>
 	</dependencies>
 	
+	<!-- Profile examples -->
 	<profiles>
 		<profile>
 			<id>SanityTest</id>
